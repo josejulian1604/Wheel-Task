@@ -1,10 +1,11 @@
 import ArrowForwardIcon from '@mui/icons-material/ArrowForward';
 
 interface ReserveButtonProps {
-  label?: string;
-  className?: string;
+  label?: string;    // Texto opcional que se mostrará en el botón
+  className?: string; // Clases CSS adicionales para personalización
 }
 
+// Componente reutilizable para diferentes secciones (En este caso NavBar y Gallery)
 export default function ReserveButton({ label, className = '' }: ReserveButtonProps) {
   return (
     <button

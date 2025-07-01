@@ -1,6 +1,6 @@
 type CardProps = {
-    image: string;
-    title: string;
+    image: string; // Path de la imagen a mostrar en la tarjeta
+    title: string; // Título que se mostrará debajo de la imagen
 };
 
 export default function Card({ image, title }: CardProps) {
